@@ -1,4 +1,4 @@
-# learn-nuxt
+# learn-nuxtjs
 
 > Nuxt.js project
 

@@ -1,5 +1,5 @@
 {
-  "name": "learn-nuxt",
+  "name": "learn-nuxtjs",
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "mahroni <mahroni87@gmail.com>",
@@ -13,9 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "nuxt": "^1.0.0-rc3",
-    "tachyons": "^4.8.1"
+    "nuxt": "^1.0.0-rc8"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'learn-nuxt',
+    title: 'learn-nuxtjs',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,7 +13,6 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  css: ['tachyons/css/tachyons.css'],
   /*
   ** Customize the progress-bar color
   */
@@ -34,11 +33,6 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    },
-    vendor: ['axios']
-  },
-
-  router: {
-    middleware: ['visits', 'user-agent']
+    }
   }
 }
